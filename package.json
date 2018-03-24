@@ -4,6 +4,7 @@
   "description": "Yet Another Blockchain",
   "main": "index.js",
   "scripts": {
+    "run": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -11,5 +12,9 @@
     "education"
   ],
   "author": "Dmitry Birin",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "prettier": "1.11.1"
+  }
 }
