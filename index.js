@@ -76,9 +76,12 @@ class Blockchain {
     }
 }
 
-let savjeeCoin = new Blockchain(5)
+let yablockchain = new Blockchain(4)
 console.log('Mining block 1...')
-savjeeCoin.addBlock(new Block(1, +new Date(), 'one string'))
+yablockchain.addBlock(new Block(1, +new Date(), 'one string'))
 
 console.log('Mining block 2...')
-savjeeCoin.addBlock(new Block(2, +new Date(), 'another one string'))
+yablockchain.addBlock(new Block(2, +new Date(), 'another one string'))
+
+
+console.log(yablockchain.isChainValid())
